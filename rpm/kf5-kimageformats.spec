@@ -9,7 +9,7 @@ Name:       kf5-kimageformats
 # << macros
 
 Summary:    KDE Frameworks 5 Tier 1 addon with additional image plugins for QtGui
-Version:    4.100.0
+Version:    5.0.0
 Release:    1
 Group:      System/Base
 License:    GPLv2+
