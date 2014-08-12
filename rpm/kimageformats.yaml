@@ -1,5 +1,5 @@
-Name         : kf5-kimageformats
-Version      : 5.0.0
+Name         : kimageformats
+Version      : 5.1.0
 Release      : 1
 Group        : System/Base
 License      : GPLv2+
@@ -48,5 +48,6 @@ RequiresPostUn:
 
 Files:
     - "%doc COPYING.LIB README.md"
-    - "%{_kf5_qtplugindir}/imageformats/*.so"
-    - "%{_kf5_datadir}/kservices5/qimageioplugins/*.desktop"
+    - "%{_kf5_plugindir}/imageformats/*.so"
+    - "%dir %{_kf5_servicesdir}/qimageioplugins"
+    - "%{_kf5_servicesdir}/qimageioplugins/*.desktop"
