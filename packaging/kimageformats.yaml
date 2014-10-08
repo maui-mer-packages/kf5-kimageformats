@@ -10,7 +10,6 @@ Description  : |
   may be a runtime requirement for Qt-based software to support certain
   image formats.
 URL          : http://www.kde.org
-SetupOptions : -q -n %{name}-%{version}/upstream
 
 Sources:
     - "%{name}-%{version}.tar.xz"
